@@ -4,17 +4,24 @@
 去分析这个对象应有的属性，和行为。多和面试官讨论，越细致越好！如果可以使用什么单例，
 或者factory method 来设计的话，multi threading, 就尽量的添加上这些东西。
 
-elevator:. 
-First ask the interviewer what kind of elevator?  there is only one elevator serving that 
+elevator:
+
+First ask the interviewer what kind of elevator?  
+there is only one elevator serving that 
 building or multiple elevators serving the building simultaneously?
-this situation is that: there is one elevator serving the building.  there are many floors 
+this situation is that: there is one elevator serving the building.  
+
+there are many floors 
 in the buliding. Maybe there are some users in different floor pressing the button simultaneously. 
 This results in some requests to RequestProcessCenter for processing. The  RequestProcessCenter 
 figure out the first request that need to be processed in such an algorithm that the distance 
 between target floor and current floor is shortest.
 First describe the whole situation. and check it with your interviewer;
 Second sketch out the main classes and methods on the whiteboard;
+
 So we need the following classes:
+
+```java
 public class User {
 private name;
 public pressButton(int toFloor) {
@@ -100,3 +107,5 @@ if (req != null) {
    
 }
 }
+
+```
