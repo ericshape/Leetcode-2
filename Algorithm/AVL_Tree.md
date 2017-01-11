@@ -20,7 +20,7 @@
 * Since this is a recursive procedure let us examine the two base cases for updating balance factors:
   1. The recursive call has reached the root of the tree.
   2. The balance factor of the parent has been adjusted to zero. You should convince yourself that once a subtree has a balance factor of zero, then the balance of its ancestor nodes does not change.
-```
+```python
 def _put(self,key,val,currentNode):
     if key < currentNode.key:
         if currentNode.hasLeftChild():
@@ -64,7 +64,7 @@ To perform a left rotation we essentially do the following:
 * Move the old root (A) to be the left child of the new root.
 * If new root (B) already had a left child then make it the right child of the new left child (A). Note: Since the new root (B) was the right child of A the right child of A is guaranteed to be empty at this point. This allows us to add a new node as the right child without any further consideration.
 
-```
+```python
 def rotateLeft(self,rotRoot):
     newRoot = rotRoot.rightChild
     rotRoot.rightChild = newRoot.leftChild
