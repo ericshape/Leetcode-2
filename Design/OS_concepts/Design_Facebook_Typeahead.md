@@ -1,3 +1,27 @@
+
+## FB typeahead
+
+
+http://www.downvids.net/typeahead-search-tech-talk-hd--28442.html
+
+https://www.facebook.com/notes/facebook-engineering/the-life-of-a-typeahead-query/389105248919/
+
+https://engineering.pinterest.com/blog/rebuilding-user-typeahead
+
+https://engineering.linkedin.com/open-source/cleo-open-source-technology-behind-linkedins-typeahead-search
+
+
+
+### Design via Tries:
+
+https://www.interviewbit.com/problems/search-typeahead/
+
+http://massivetechinterview.blogspot.com/2015/12/design-typeahead.html
+
+http://massivetechinterview.blogspot.com/2011/08/auto-completion-find-strings-starting.html
+
+
+
 ### Introduce type of Typeahead:
 The typeahead services powered by Cleo include members (1st and 2nd degree network connections), companies, groups, questions, skills and various site features. These services are in two broad categories:
 
